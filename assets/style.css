@@ -1,0 +1,49 @@
+body {
+	background-color: lightgray;
+	margin: 0;
+	font-family: "Georgia", "Times New Roman", Times, serif;
+	font-size: 17px;
+	line-height: 140%;
+} 
+
+h1 {
+	background-color: black;
+	color: lightgray;
+	margin: 0;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 27px;
+}		
+
+h2 {
+	font-size: 22px;
+}
+
+a {
+	color: blue;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#main-info,
+#contact-info,
+#styledImage {
+	float: left;
+}
+
+#main-info {
+	width: 70%;
+}
+
+#contact-info {
+	width: 30%;
+}
+
+#styledImage {
+	margin-right: 20px;
+	width: 250px;
+	height: 200px;
+}
